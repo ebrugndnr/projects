@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FORM SAYFASI ÖRNEK TASARIM</title>
+    <style>
+        body{
+            background-color: #f0f0f0;
+            margin: 0 auto;
+            padding: 0;
+        }
+        header{
+            background-color: cornflowerblue;
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+            font-family: Arial,sans-serif;
+        }
+        nav ul{
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li{
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #ffffff;
+            padding: 5px 10px;
+            background-color: darkblue;
+            border-radius: 5px;
+        }
+        section{
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        section form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc ;
+            border-radius: 5px;
+        }
+        form input[type="submit"]{
+            background-color: green;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover{
+            background-color: darkgreen;
+        }
+        footer{
+            color: #ffffff;
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>
+        WELCOME TO DUR EDUCATİONAL WEB PAGE!
+    </h1>
+    <nav>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">USEFUL LİNKS</a></li>
+            <li><a href="">MORE İNFO</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">FEEDBACK</a></li>
+        </ul>
+
+    </nav>
+</header>
+<main>
+    <section>
+        <h1>About HTML</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, inventore.</p>
+    </section>
+    <section>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <form action="">
+            <label for="fname">First Name</label><br>
+            <input  type="text" id="fname"><br>
+            <label for="lname">Last Name</label><br>
+            <input  type="text" id="lname"><br>
+            <label for="feedback">Feedback</label><br>
+            <textarea  id="feedback" cols="30" rows="10"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+
+    </section>
+</main>
+<footer>
+    <p>Lorem ipsum dolor sit amet.</p>
+</footer>
+</body>
+</html>
